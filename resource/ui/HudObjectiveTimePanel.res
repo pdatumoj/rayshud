@@ -17,10 +17,10 @@
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" "0"
-
+		
 		if_match {
 			"visible"		"0"
-		}		
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -30,11 +30,10 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
+		"wide_lodef"		"25"
+		"tall_lodef"		"25"
 		"visible"			"0"
-		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -72,7 +71,7 @@
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
 		}
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -107,12 +106,12 @@
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
 		}
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"OvertimeBG"
-		"xpos"				"9999"	
+		"xpos"				"9999"
 	}
 
 	"SuddenDeathLabel"
@@ -142,14 +141,14 @@
 			"wide"			"p1"
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
-		}		
-	}			
+		}
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"SuddenDeathBG"
-		"xpos"				"9999"	
-	}	
+		"xpos"				"9999"
+	}
 
 	"SetupLabel"
 	{
@@ -176,8 +175,8 @@
 			"wide"			"p1"
 			"font"			"Cerbetica10"
 			"proportionaltoparent"	"1"
-		}		
-	}	
+		}
+	}
 	"SetupBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -220,6 +219,6 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ServerTimeLimitLabelBG"
-		"xpos"				"9999"			
-	}	
+		"xpos"				"9999"
+	}
 }

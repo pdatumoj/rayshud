@@ -9,11 +9,12 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-
+		
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"			"220"
 		"team1_player_delta_x"			"0"
 		"team1_player_delta_y"			"-16"
+		
 		"team2_player_base_offset_x"	"0"
 		"team2_player_base_y"			"240"
 		"team2_player_delta_x"			"0"
@@ -28,6 +29,55 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			"tabPosition"		"0"
+			
+			"classimage"
+			{
+				"ControlName"	"CTFClassImage"
+				"fieldName"		"classimage"
+				"xpos"			"27"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"team1_image"	"../hud/class_scoutred"
+				"scaleImage"	"1"
+			}
+			
+			"classimagebg"
+			{
+				"ControlName"	"Panel"
+				"fieldName"		"classimagebg"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"2"
+				"wide"			"9999"
+				"tall"			"9999"
+				"visible"		"0"
+				"enabled"		"1"
+				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
+				
+			}
+			
+			"HealthIcon"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"HealthIcon"
+				"xpos"			"0"
+				"ypos" 			"0"
+				"zpos" 			"3"
+				"wide" 			"24"
+				"tall" 			"14"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"HealthBonusPosAdj" 		"10"
+				"HealthDeathWarning" 		"0.49"
+				"TFFont" 					"HudFontSmallest"
+				"HealthDeathWarningColor" 	"HUDDeathWarning"
+				"TextColor" 				"HudOffWhite"
+			}
 			
 			"PanelBackground"
 			{
@@ -47,14 +97,14 @@
 			
 			"PanelLeftFringe"
 			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelLeftFringe"
-				"xpos" 			"0"
+				"ControlName"	"ImagePanel"
+				"fieldName"		"PanelLeftFringe"
+				"xpos"			"0"
 				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"52"
-				"tall" 			"18"
-				"autoResize" 	"0"
+				"zpos"			"-1"
+				"wide"			"52"
+				"tall"			"18"
+				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible" 		"1"
 				"enabled" 		"1"
@@ -159,55 +209,6 @@
 				"fgcolor"		"235 226 202 255"
 			}
 			
-			"classimage"
-			{
-				"ControlName"	"CTFClassImage"
-				"fieldName"		"classimage"
-				"xpos"			"27"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
-				"visible"		"1"
-				"enabled"		"1"
-				"team1_image"	"../hud/class_scoutred"
-				"scaleImage"	"1"	
-			}
-			
-			"classimagebg"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"			"9999"
-				"ypos"			"9999"
-				"zpos"			"2"
-				"wide"			"9999"
-				"tall"			"9999"
-				"visible"		"0"
-				"enabled"		"1"
-				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
-				
-			}
-			
-			"HealthIcon"
-			{
-				"ControlName" 	"EditablePanel"
-				"fieldName" 	"HealthIcon"
-				"xpos" 			"0"
-				"ypos" 			"0"
-				"zpos" 			"3"
-				"wide" 			"24"
-				"tall" 			"14"
-				"visible" 		"1"
-				"enabled" 		"1"
-				"HealthBonusPosAdj" 		"10"
-				"HealthDeathWarning" 		"0.49"
-				"TFFont" 					"HudFontSmallest"
-				"HealthDeathWarningColor" 	"HUDDeathWarning"
-				"TextColor" 				"HudOffWhite"
-			}
-
 			"ReadyBG"
 			{
 				"ControlName"	"ScalableImagePanel"
@@ -356,7 +357,7 @@
 			}
 		}
 	}
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
@@ -416,13 +417,13 @@
 		"font"			"Cerbetica20"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
-		if_mvm 
+		
+		if_mvm
 		{
 			"visible"	"1"
-		}	
+		}
 	}
-
+	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"

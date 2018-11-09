@@ -95,13 +95,12 @@
 			"icon"			""
 			"iconColor"		"255 255 255 255"
 		}
-	
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
 			"xpos"			"114"
-			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"

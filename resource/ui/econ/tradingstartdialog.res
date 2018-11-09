@@ -21,7 +21,7 @@
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-		
+			
 			"button"
 			{
 				"xpos"			"0"
@@ -114,7 +114,7 @@
 			"visible"		"1"
 		}
 	}
-
+	
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -126,7 +126,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+			
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -246,6 +246,7 @@
 			"border_armed"				"ButtonHover"
 		}
 	}
+	
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -257,7 +258,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -274,7 +275,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -304,8 +305,9 @@
 			"depressedFgColor_override" "TanLight"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
-		}	
+		}
 	}
+	
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -317,7 +319,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -335,7 +337,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -356,8 +358,9 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "Base Color"
-		}	
+		}
 	}
+	
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -369,7 +372,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -387,7 +390,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "Base Color"
-		}	
+		}
 		
 		"URLHelpLabel"
 		{
@@ -408,7 +411,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "TanLight"
-		}	
+		}
 		
 		"URLFailLabel"
 		{
@@ -449,7 +452,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "Base Color"
-		}	
+		}
 		
 		"URLEntry"
 		{

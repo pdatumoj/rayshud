@@ -284,7 +284,7 @@
 		"inactiveimage"		"..\hud\backpack_01_grey"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"ShowBackpackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -301,12 +301,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"pin_to_sibling"               "ShowBackpackButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		
+		"pin_to_sibling"			"ShowBackpackButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-
+	
 	"ShowCraftingButton"
 	{
 		"ControlName"		"ImageButton"
@@ -332,7 +332,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"ShowCraftingLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -349,12 +349,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"pin_to_sibling"               "ShowCraftingButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
-	}	
-
+		
+		"pin_to_sibling"			"ShowCraftingButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
+	}
+	
 	"ShowArmoryButton"
 	{
 		"ControlName"		"ImageButton"
@@ -379,8 +379,8 @@
 		"inactiveimage"		"catalog_book_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-
+	}
+	
 	"ShowArmoryLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -397,12 +397,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"pin_to_sibling"               "ShowArmoryButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		
+		"pin_to_sibling"			"ShowArmoryButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-
+	
 	"ShowTradeButton"
 	{
 		"ControlName"		"ImageButton"
@@ -427,8 +427,8 @@
 		"inactiveimage"		"trading_parcel_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-
+	}
+	
 	"ShowTradeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -446,12 +446,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-
-		"pin_to_sibling"               "ShowTradeButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		
+		"pin_to_sibling"			"ShowTradeButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-
+	
 	"ShowPaintkitsButton"
 	{
 		"ControlName"		"ImageButton"
@@ -477,7 +477,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -495,10 +495,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-
-		"pin_to_sibling"               "ShowPaintkitsButton"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6" 
+		
+		"pin_to_sibling"			"ShowPaintkitsButton"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
 	
 	"ClassLabel"
@@ -518,7 +518,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"ItemsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -557,7 +557,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
-
+	
 	"NoGCLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -576,7 +576,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
-
+	
 	"SelectLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -595,7 +595,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
 	}
-
+	
 	"LoadoutChangesLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -617,26 +617,26 @@
 	
 	"class_loadout_panel"
 	{
-		"ControlName"		"CClassLoadoutPanel"
-		"fieldName"			"class_loadout_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"	"CClassLoadoutPanel"
+		"fieldName"		"class_loadout_panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"400"
+		"zpos"			"500"
+		"visible"		"0"
 	}
-
+	
 	"backpack_panel"
 	{
-		"ControlName"		"CBackpackPanel"
-		"fieldName"			"backpack_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"	"CBackpackPanel"
+		"fieldName"		"backpack_panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"400"
+		"zpos"			"500"
+		"visible"		"0"
 	}
 	
 	"ShowExplanationsButton"
@@ -768,8 +768,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -832,9 +832,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
-	}	
+			}
+		}
+	}
 	
 	"BackpackExplanation"
 	{
@@ -927,7 +927,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"TanLight"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -941,9 +941,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -974,7 +974,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -988,9 +988,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1009,7 +1009,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1054,9 +1054,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}		
-	}	
+			}
+		}
+	}
 	
 	"CraftingExplanation"
 	{
@@ -1148,7 +1148,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"TanLight"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1162,9 +1162,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1195,7 +1195,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1209,9 +1209,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1230,7 +1230,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1261,7 +1261,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1275,9 +1275,9 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
-	}	
+			}
+		}
+	}
 	
 	"ArmoryExplanation"
 	{
@@ -1371,7 +1371,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"TanLight"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1385,8 +1385,8 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
 
 		"PrevButton"
 		{
@@ -1418,7 +1418,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1432,9 +1432,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1453,7 +1453,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1484,7 +1484,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1498,8 +1498,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 	}
 	
 	"TradingExplanation"
@@ -1593,7 +1593,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"TanLight"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1607,9 +1607,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1640,7 +1640,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1654,9 +1654,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1675,7 +1675,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
-
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1706,7 +1706,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1720,10 +1720,10 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 	}
-
+	
 	"PatternsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -1829,9 +1829,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}	
-
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1862,7 +1862,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1876,9 +1876,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
-
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1897,7 +1897,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1928,7 +1928,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1942,8 +1942,8 @@
 				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
-			}				
-		}	
+			}
+		}
 	}
 	
 	"ExplanationExplanation"
@@ -2035,7 +2035,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"TanLight"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2049,8 +2049,9 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2081,7 +2082,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2095,8 +2096,9 @@
 				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
-			}				
-		}		
+			}
+		}
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -2115,7 +2117,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 		}
-	}	
+	}
 	
 	"armory_panel"
 	{
@@ -2128,7 +2130,7 @@
 		"zpos"				"500"
 		"visible"			"1"
 	}
-
+	
 	"InspectionPanel"
 	{
 		"fieldName"		"InspectionPanel"

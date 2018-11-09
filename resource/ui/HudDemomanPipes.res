@@ -45,7 +45,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
@@ -66,7 +66,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
-
+	
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -146,14 +146,14 @@
 	
 	"NoPipesPresentPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"NoPipesPresentPanel"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"1"
+		"wide"				"100"
+		"tall"				"50"
+		"visible"			"1"
 		
 		"PipeIcon"
 		{

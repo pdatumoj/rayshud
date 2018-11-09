@@ -84,7 +84,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"image_default"	"glyph_expand"
 			"button_activation_type"	"1"
-
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -117,13 +117,13 @@
 
 		"Checkbutton"
 		{
-			"ControlName"		"CExCheckButton"
+			"ControlName"	"CExCheckButton"
 			"fieldName"		"Checkbutton"
-			"xpos"		"r27"
-			"ypos"		"-1"
-			"zpos"		"3"
-			"wide"		"25"
-			"tall"		"20"
+			"xpos"			"r27"
+			"ypos"			"-1"
+			"zpos"			"3"
+			"wide"			"25"
+			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"smallcheckimage"	"1"
@@ -176,7 +176,6 @@
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
 			"fgcolor_override"		"7 7 7 255"
 		}
 

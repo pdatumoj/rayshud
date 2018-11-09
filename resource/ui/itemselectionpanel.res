@@ -15,27 +15,27 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"		"25 25 25 255"
 		
-		"item_ypos"		"60"
-		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-288"
-		"item_backpack_xdelta"			"4"
-		"item_backpack_ydelta"			"3"
+		"item_ypos"					"60"
+		"item_ydelta"				"80"
+		"item_backpack_offcenter_x"	"-288"
+		"item_backpack_xdelta"		"4"
+		"item_backpack_ydelta"		"3"
 
 		"modelpanels_selection_kv"
 		{
-			"wide"			"94"
-			"tall"			"70"
-			"model_xpos"	"2"
-			"model_wide"	"90"
-			"model_tall"	"50"
-			"model_center_x" "1"
-			"text_ypos"		"0"
-			"text_forcesize" "2"
-			"text_center"	"0"
-			"text_yoffset"	"2"
-			"inset_eq_y"	"55"
+			"wide"				"94"
+			"tall"				"70"
+			"model_xpos"		"2"
+			"model_wide"		"90"
+			"model_tall"		"50"
+			"model_center_x"	"1"
+			"text_ypos"			"0"
+			"text_forcesize"	"2"
+			"text_center"		"0"
+			"text_yoffset"		"2"
+			"inset_eq_y"		"55"
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
 		}
@@ -159,9 +159,9 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"15 15 15 255"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"		"TanLight"
+		"bgcolor_override"		"15 15 15 255"
+		"paintbackgroundtype"	"2"
 		"font"		"HudFontSmallest"
 	}
 	
@@ -275,7 +275,7 @@
 		"enabled"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}
 	
 	"ShowBackpack"
 	{
@@ -464,5 +464,5 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-    }
+	}
 }

@@ -15,6 +15,7 @@
 		"border"				"CyanBorderThick"
 		"bgcolor_override"		"25 25 25 255"
 	}
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -29,12 +30,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"		"1"
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -52,7 +54,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-    }
+	}
 
 	"TitleLabel"
 	{
@@ -130,7 +132,7 @@
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -194,7 +196,7 @@
 		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
-
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
@@ -202,7 +204,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-
+	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -297,7 +299,7 @@
 		"border_default"	"ButtonHover"
 		"border_armed"		"ButtonHover"
 	}
-
+	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

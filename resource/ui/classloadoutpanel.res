@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"				"25 25 25 255"
+		"infocus_bgcolor_override" 		"25 25 25 255"
+		"outoffocus_bgcolor_override" 	"25 25 25 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -52,7 +52,7 @@
 			"model_wide"		"82"
 			"text_ypos"			"47"
 			"text_center"		"1"
-			"name_only"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -113,7 +113,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
-
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -182,9 +182,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"render_texture""0"
-		"fov"			"30"
-		"allow_manip"	"1"
+		"render_texture"	"0"
+		"fov"				"30"
+		"allow_manip"		"1"
 		
 		"model"
 		{
@@ -240,7 +240,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-   	}
+	}
 	
 	"PassiveAttribsLabel"
 	{
@@ -308,7 +308,7 @@
 		"fieldName"		"TauntHintLabel"
 		"xpos"			"9999"
 	}
-
+	
 	"RedButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -330,8 +330,8 @@
 		"command"			"sv_cheats 1;r_skin 0"
 		
 		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "Base Color"
+		"defaultFgColor_override" 	"250 68 17 255"
+		"armedFgColor_override" 	"Base Color"
 		"depressedFgColor_override" "250 68 17 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -364,8 +364,8 @@
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "0 98 255 255"
-		"armedFgColor_override" "Base Color"
+		"defaultFgColor_override" 	"0 98 255 255"
+		"armedFgColor_override" 	"Base Color"
 		"depressedFgColor_override" "0 98 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -418,7 +418,7 @@
 			"image"			"glyph_items"
 		}
 	}
-
+	
 	"TauntLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"

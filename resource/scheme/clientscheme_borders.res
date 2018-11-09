@@ -2416,9 +2416,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"alert_rect"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2428,9 +2428,9 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"178 83 22 255"
 			"image"					"button_glow"
-			"src_corner_height"		"4"					// pixels inside the image
+			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
-			"draw_corner_width"		"4"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
 		MainMenuButtonGlow2
@@ -2439,9 +2439,9 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"238 103 17 255"
 			"image"					"button_glow"
-			"src_corner_height"		"4"					// pixels inside the image
+			"src_corner_height"		"4"				// pixels inside the image
 			"src_corner_width"		"4"
-			"draw_corner_width"		"4"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
 		MainMenuButtonDefault
@@ -2449,9 +2449,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonArmed
@@ -2459,9 +2459,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_central_hover"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDisabled
@@ -2469,9 +2469,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_central_disabled"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonDefault
@@ -2479,9 +2479,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_central_adv"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonArmed
@@ -2489,9 +2489,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_central_adv_hover"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorder
@@ -2499,9 +2499,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
@@ -2509,9 +2509,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_holder_central_alpha"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuBlogTabBG
@@ -2519,9 +2519,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"blog_tabby"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		MainMenuHighlightBorder
@@ -2529,9 +2529,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"callout_bubble"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2540,9 +2540,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2551,9 +2551,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/innershadow_border"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StoreNewBorder
@@ -2561,9 +2561,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"new_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StoreHighlightedBorder
@@ -2571,9 +2571,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"featured_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
 		StoreHighlightedBackgroundBorder
@@ -2581,9 +2581,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_featured_item_bg01"
-			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_height"		"80"			// pixels inside the image
 			"src_corner_width"		"30"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StoreDiscountBorder
@@ -2591,9 +2591,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"sale_corner"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StorePreviewBorder
@@ -2601,9 +2601,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_inspector_bg_small"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StoreAddToCart
@@ -2611,9 +2611,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_add_to_cart"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabSelected
@@ -2621,9 +2621,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_tab_selected"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabUnselected
@@ -2631,9 +2631,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_tab_unselected"
-			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		StorePromotion
@@ -2641,9 +2641,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"store/store_coupon_border"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2652,9 +2652,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"scroll_button_off"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ArmoryScrollbarWell
@@ -2662,9 +2662,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"scroll_well"
-			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_height"		"16"			// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2704,7 +2704,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		SortCategoryBorder
 		{
 			"inset" "0 0 1 1"
@@ -2716,7 +2716,7 @@ Scheme
 					"offset" "1 0"
 				}
 			}
-		}		
+		}
 		
 		SteamWorkshopBorder
 		{
@@ -2760,9 +2760,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/fatlineborder_red"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayFatLineBorderOpaque
@@ -2770,9 +2770,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/fatlineborder"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayGrayDialogBorder
@@ -2780,9 +2780,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/graydialogborder"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayOutlinedGreyBox
@@ -2790,9 +2790,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/outlinedgreybox"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayOutlinedDullGreyBox
@@ -2800,9 +2800,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/dullgreybox"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"			// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayThinLineBorder
@@ -2811,9 +2811,9 @@ Scheme
 			"backgroundtype"		"2"
 			"image"					"../hud/tournament_panel_brown"
 			//"image"				"../hud/color_panel_browner"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayDefaultBorder
@@ -2821,9 +2821,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/panel_scalable_default"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayHighlightBorder
@@ -2831,9 +2831,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/panel_scalable_highlight"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayBalloonBorder
@@ -2841,9 +2841,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/panel_scalable_balloon"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
@@ -2856,9 +2856,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"replay/panel_scalable_transparent"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2867,9 +2867,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"../hud/panel_scalable_red"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2878,9 +2878,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"../hud/panel_scalable_blue"
-			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
 		
@@ -2889,9 +2889,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"inner_shadow_border"
-			"src_corner_height"		"5"					// pixels inside the image
+			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
-			"draw_corner_width"		"5"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
 		InnerShadowBorderThin
@@ -2910,50 +2910,50 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"cyoa/cyoa_map_screen_border"
-			"src_corner_height"		"63"				// pixels inside the image
+			"src_corner_height"		"63"			// pixels inside the image
 			"src_corner_width"		"63"
-			"draw_corner_width"		"26"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"26"	
+			"draw_corner_width"		"26"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"26"
 		}
 		CYOANodeViewBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"cyoa/node_view_border"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
 		CYOANodeViewBorder_Active
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"cyoa/node_view_border_active"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
 		CYOANodeViewBorder_Inactive
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"cyoa/node_view_border_inactive"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
 		CYOANodeViewBorder_TurnIn
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"image"					"cyoa/node_view_border_turnin"
-			"src_corner_height"		"127"				// pixels inside the image
+			"src_corner_height"		"127"			// pixels inside the image
 			"src_corner_width"		"127"
-			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"24"	
+			"draw_corner_width"		"24"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"24"
 		}
 		CYOAPopupBorder
 		{

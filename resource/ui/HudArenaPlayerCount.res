@@ -10,7 +10,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+		
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -30,7 +30,7 @@
 			"src_corner_width"		"23"
 			
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		
 		"count"
@@ -100,7 +100,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+		
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"

@@ -54,7 +54,7 @@
 			}
 		}
 	}
-
+	
 	"CaratLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 128 255 255"
 	}
-
+	
 	"ArmoryLabel"
 	{
 		"ControlName"	"Label"
@@ -153,7 +153,7 @@
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"StorePreviewBorder"
-
+		
 		"Data_TextRichText"
 		{
 			"ControlName"	"CEconItemDetailsRichText"
@@ -173,7 +173,7 @@
 			"wrap"			"1"
 			"highlight_color"	"Base Color"
 			"itemset_color"		"216 244 9 255"
-			"link_color" 		"200 128 255 255"
+			"link_color"		"200 128 255 255"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
@@ -185,29 +185,29 @@
 	
 	"SelectedItemModelPanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"SelectedItemModelPanel"
-		"xpos"			"c25"
-		"ypos"			"40"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"135"
-		"visible"		"1"
+		"ControlName"		"CItemModelPanel"
+		"fieldName"			"SelectedItemModelPanel"
+		"xpos"				"c25"
+		"ypos"				"40"
+		"zpos"				"1"
+		"wide"				"260"
+		"tall"				"135"
+		"visible"			"1"
 		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
-		"model_hide"	"1"
-		"text_center"	"1"
-		"resize_to_text" "1"
+		"paintborder"		"0"
+		"model_hide"		"1"
+		"text_center"		"1"
+		"resize_to_text"	"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
-
+	
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -231,7 +231,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}

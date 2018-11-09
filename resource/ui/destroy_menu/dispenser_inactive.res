@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/dispenser_inactive.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"CerbeticaBold12"
@@ -20,7 +20,7 @@
 		"brighttext"	"0"
 	}
 	
-	"ItemBackground"	
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -37,7 +37,7 @@
 	}
 	
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
 		"font"			"CerbeticaBold20"
@@ -57,7 +57,7 @@
 	}
 
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
 		"font"			"CerbeticaBold20"
@@ -74,8 +74,8 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
-		
+	}
+	
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"
@@ -93,7 +93,7 @@
 	}
 	
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"CerbeticaBold20"

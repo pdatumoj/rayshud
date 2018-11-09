@@ -23,7 +23,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"BlueScoreBG2"
 		{
@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"70 130 180 153"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 		}
 		"RedScoreBG"
 		{
@@ -189,7 +189,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
-			"scaleImage"		"1"
+			"scaleImage"	"1"
 			
 			"src_corner_height"	"23"
 			"src_corner_width"	"23"
@@ -250,46 +250,6 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 	}
-
-	"LosingTeamLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"LosingTeamLabel"
-		"font"			"CerbeticaBold20"
-		"xpos"			"35"
-		"ypos"			"94"
-		"zpos"			"1"
-		"wide"			"380"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%LosingTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}
-	"LosingTeamLabelDropshadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"LosingTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
-		"fgcolor"		"TransparentBlack"
-		"xpos"			"36"
-		"ypos"			"95"
-		"zpos"			"1"
-		"wide"			"380"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%LosingTeamLabel%"
-		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-	}
 	
 	"WinningTeamLabel"
 	{	
@@ -326,6 +286,46 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	
+	"LosingTeamLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"LosingTeamLabel"
+		"font"			"CerbeticaBold20"
+		"xpos"			"35"
+		"ypos"			"94"
+		"zpos"			"1"
+		"wide"			"380"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%LosingTeamLabel%"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+	"LosingTeamLabelDropshadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"LosingTeamLabelDropshadow"
+		"font"			"CerbeticaBold20"
+		"fgcolor"		"TransparentBlack"
+		"xpos"			"36"
+		"ypos"			"95"
+		"zpos"			"1"
+		"wide"			"380"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%LosingTeamLabel%"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -439,7 +439,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_HealingThisRound"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
@@ -626,7 +626,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-		"Player2Avatar"	
+		"Player2Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"

@@ -41,7 +41,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override" 	"TanLight"
+		"fgcolor_override"	"TanLight"
 	}
 	
 	"CancelButton"
@@ -147,23 +147,23 @@
 		
 		"TipLabel"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TipLabel"
-			"font"				"HudFontSmallest"
-			"labelText"			"%tiptext%"
-			"textAlignment"		"center"
-			"xpos"				"20"
-			"ypos"				"10"
-			"zpos"				"2"
-			"wide"				"200"
-			"tall"				"30"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallest"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"center"
+			"xpos"			"20"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"200"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
-			"wrap"				"1"
-			//"centerwrap"		"1"
+			"wrap"			"1"
+			//"centerwrap"	"1"
 		}
 	}
 }

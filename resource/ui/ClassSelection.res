@@ -268,7 +268,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -305,7 +305,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -342,7 +342,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 	
@@ -401,7 +401,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -438,7 +438,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -475,7 +475,7 @@
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
-		"font"				"CerbeticaBold16"	
+		"font"				"CerbeticaBold16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
@@ -484,7 +484,7 @@
 		"armedFgColor_override"		"Button Color"
 		"depressedFgColor_override" "TanLight"
 		"selectedFgColor_override" 	"Button Color"
-			
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
@@ -495,7 +495,7 @@
 		"keyboardinputenabled"	"0"
 	}
 
-	"CancelButton" [$WIN32] 
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -517,7 +517,7 @@
 		"fgcolor"		"TanLight"
 	}
 	
-	"EditLoadoutButton" [$WIN32] 
+	"EditLoadoutButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
@@ -651,13 +651,13 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 		"ypos"			"r50"
-		"ypos_lodef"			"r74"
-		"ypos_hidef"			"r65"
+		"ypos_lodef"	"r74"
+		"ypos_hidef"	"r65"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
+		"tall_lodef"	"74"
+		"tall_hidef"	"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -677,10 +677,10 @@
 		"button_separator"	"10"
 		"button_separator_lodef"	"5"
 		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
+		"buttongap_hidef"	"35"
+		"buttongap_lodef"	"18"
 		"textadjust"		"3"
-		"textadjust_lodef"		"0"
+		"textadjust_lodef"	"0"
 		"buttonoffsety"		"20"
 		"buttonoffsety_hidef"		"0"
 		"buttonoffsety_lodef"		"18"
@@ -955,7 +955,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
 	"numSoldier" [$WIN32]
 	{
@@ -975,7 +975,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
 	"numPyro" [$WIN32]
 	{
@@ -995,7 +995,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}		
+	}
 	
 	"numDemoman" [$WIN32]
 	{
@@ -1055,7 +1055,7 @@
 		"textAlignment"	"center"
 		"font"			"CerbeticaBold16"
 		"fgcolor"		"TanLight"
-	}						
+	}
 	
 	"numMedic" [$WIN32]
 	{
@@ -1376,7 +1376,7 @@
 		"enabled"		"1"
 		"fov"			"25"
 		"allow_rot"		"0"
-		"paintbackground"	"1"		
+		"paintbackground"	"1"
 		"render_texture"	"0"
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -1403,15 +1403,6 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"7"
-		"wide"			"235"
-		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"ClassHighlightPanel"

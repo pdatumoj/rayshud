@@ -57,7 +57,7 @@
 			}
 		}
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -192,7 +192,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}		
+	}
 
 	"RoundCounter"
 	{
@@ -349,12 +349,12 @@
 		"6v6_gap"		"1"
 		"12v12_gap"		"1"
 
-		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_grow_dir" 	"west"
+		"team1_base_x"		"c-45"
 		"team1_max_expand"	"133"
 
-		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_grow_dir" 	"east"
+		"team2_base_x"		"c47"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -423,7 +423,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"healthbar"
-				"font"			"Default"																		
+				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"19"
 				"zpos"			"5"
@@ -440,24 +440,24 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"																		
-				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"6"
-				"wide"					"f0"
-				"tall"					"2"				
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "Transparent"
-				"fgcolor_override"	   "255 255 255 160"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"			"overhealbar"
+				"font"				"Default"
+				"xpos"				"0"
+				"ypos"				"19"
+				"zpos"				"6"
+				"wide"				"f0"
+				"tall"				"2"				
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"textAlignment"		"Left"
+				"dulltext"			"0"
+				"brighttext"		"0"
+				"bgcolor_override"	"Transparent"
+				"fgcolor_override"	"255 255 255 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
@@ -470,7 +470,7 @@
 				"wide"				"32"
 				"tall"				"32"
 				"visible"			"0"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -687,7 +687,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"		"117 107 94 255"
 		}
 		"BluePlayerList"
 		{
@@ -730,7 +730,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 
@@ -848,7 +848,7 @@
 			if_large
 			{
 				"tall"		"315"
-			}			
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -868,7 +868,7 @@
 			if_large
 			{
 				"tall"		"325"
-			}			
+			}
 		}
 	}
 }

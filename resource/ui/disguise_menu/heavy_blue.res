@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"			"70 130 180 153"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"			"70 130 180 153"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"			"70 130 180 153"
 	}
 }

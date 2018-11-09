@@ -756,7 +756,7 @@ Scheme
 			{
 				"name"		"KnucklesCrosses"
 				"tall"		"39"
-				"antiaias" "0"
+				"antialias"	"0"
 				"additive"	"0"
 				"outline"	"1"
 			}
@@ -1428,23 +1428,23 @@ Scheme
 	{
 		"100" // Fog's xHairs
 		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
+			"font"	"resource/fonts/crosshairs.ttf"
+			"name"	"Crosshairs"
 		}
 		"101" // Thin Cross
 		{
-			"font" "resource/fonts/Symbol.ttf"
-			"name" "Symbol"
+			"font"	"resource/fonts/Symbol.ttf"
+			"name"	"Symbol"
 		}
 		"102" // Konr Wings
 		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
+			"font"	"resource/fonts/Garm3nFont.ttf"
+			"name"	"Garm3nFont"
 		}
 		"103"
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
-			"name" "KnucklesCrosses"
+			"font"	"resource/fonts/KnucklesCrosses.ttf"
+			"name"	"KnucklesCrosses"
 		}
 	}
 }

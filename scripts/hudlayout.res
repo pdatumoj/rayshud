@@ -686,27 +686,29 @@
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL
 	//--------------------------------------------------------------
+	// Set visible/enabled to 1 to use.
+	//--------------------------------------------------------------
 	"TransparentViewmodel"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"		// Change to "1" to enable
-		"enabled"		"0"		// Change to "1" to enable
-		"image"			"replay/thumbnails/transparent"
-		"scaleImage"	"1"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"TransparentViewmodel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-100"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"		// Change to "1" to enable
+		"enabled"			"0"		// Change to "1" to enable
+		"image"				"replay/thumbnails/transparent"
+		"scaleImage"		"1"
 	}
-	
 	//--------------------------------------------------------------
+	
 	HudPlayerStatus
 	{
-		"fieldName" 		"HudPlayerStatus"
-		"visible" 			"1"
-		"enabled" 			"1"
+		"fieldName"			"HudPlayerStatus"
+		"visible"			"1"
+		"enabled"			"1"
 		"xpos"				"1"
 		"ypos"				"1"
 		"wide"				"f0"
@@ -715,9 +717,9 @@
 	
 	HudWeaponAmmo
 	{
-		"fieldName" 		"HudWeaponAmmo"
-		"visible" 			"1"
-		"enabled" 			"1"
+		"fieldName"			"HudWeaponAmmo"
+		"visible"			"1"
+		"enabled"			"1"
 		"xpos"				"c70"
 		"ypos"				"c66"
 		"xpos_minmode"		"c20"
@@ -735,7 +737,7 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-	}	
+	}
 	
 	HudKothTimeStatus
 	{
@@ -750,7 +752,7 @@
 		
 		"blue_active_xpos"	"25"
 		"red_active_xpos"	"75"
-	}	
+	}
 	
 	HudItemEffectMeter
 	{
@@ -796,7 +798,7 @@
 		"fieldName"			"HudBowCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"	
+		"xpos"				"c-100"
 		"ypos"				"c25"
 		"xpos_minmode"		"c-75"
 		"ypos_minmode"		"c46"
@@ -846,9 +848,9 @@
 		"fieldName" 		"HudWeaponSelection"
 		"xpos"				"0"
 		"wide"				"f0"
-		"ypos" 				"0"
+		"ypos"				"0"
 		"tall"				"480"
-		"RightMargin" 		"0"
+		"RightMargin"		"0"
 		"RightMargin_hidef"	"32"
 		"RightMargin_lodef"	"38"
 		"visible" 			"1"
@@ -864,10 +866,10 @@
 		"BoxGap"			"4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
-		"IconXPos" 			"8"
-		"IconYPos" 			"0"
-		"TextYPos" 			"70"		[$WIN32]
-		"TextYPos" 			"65"		[$X360]
+		"IconXPos"			"8"
+		"IconYPos"			"0"
+		"TextYPos"			"70" [$WIN32]
+		"TextYPos" 			"65" [$X360]
 		"ErrorYPos" 		"48"
 		"TextColor" 		"SelectionTextFg"
 		"MaxSlots"			"6"
@@ -878,7 +880,7 @@
 		"SelectedBoxClor" 	"0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont"		"HudSelectionText"
-	}	
+	}
 	
 	CHudAccountPanel
 	{
@@ -898,10 +900,10 @@
 		"fieldName"			"CHealthAccountPanel"
 		"xpos"				"c-288"
 		"ypos"				"c45"
-		"wide"				"250"
-		"tall"  			"120"
 		"xpos_minmode"		"c-100"
 		"ypos_minmode"		"c5"
+		"wide"				"250"
+		"tall"  			"120"
 		"wide_minmode"		"f0"
 		"tall_minmode"		"480"
 		"visible" 			"1"
@@ -969,7 +971,7 @@
 		"fieldName" 		"CSecondaryTargetID"
 		"visible" 			"0"
 		"enabled" 			"1"
-		"xpos" 				"c-100"
+		"xpos"				"c-100"
 		"ypos"				"305"
 		"zpos"				"1"
 		"wide" 				"600"
@@ -1055,7 +1057,7 @@
 		"xpos"				"c110"
 		"ypos"				"443"
 		"wide"				"40"
-		"tall" 				"44"
+		"tall"				"44"
 		"visible" 			"1"
 		"enabled" 			"1"
 		"IconColor"			"Hostage_Yellow"
@@ -1149,11 +1151,11 @@
 		"wide"	 			"580"
 		"tall"	 			"468"
 		"MaxDeathNotices" 	"6"
-		"IconScale"	  		"0.35"
-		"LineHeight"	  	"14"
-		"LineSpacing"	  	"0"
-		"CornerRadius"	  	"0"
-		"RightJustify"	  	"1"	// If 1, draw notices from the right
+		"IconScale"			"0.35"
+		"LineHeight"		"14"
+		"LineSpacing"		"0"
+		"CornerRadius"		"0"
+		"RightJustify"		"1"
 		"TextFont"			"CerbeticaBold12"
 		"TeamBlue"			"HUDBlueTeamSolid"
 		"TeamRed"			"HUDRedTeamSolid"
@@ -1168,8 +1170,8 @@
 		"fieldName" 		"HudVehicle"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	CVProfPanel
@@ -1177,8 +1179,8 @@
 		"fieldName" 		"CVProfPanel"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	ScorePanel
@@ -1186,9 +1188,9 @@
 		"fieldName" 		"ScorePanel"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"wide_minmode"	 	"f0"
-		"tall"	 			"480"
+		"wide"				"640"
+		"wide_minmode"		"f0"
+		"tall"				"480"
 	}
 	
 	HudTrain
@@ -1196,8 +1198,8 @@
 		"fieldName" 		"HudTrain"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HudMOTD
@@ -1205,8 +1207,8 @@
 		"fieldName" 		"HudMOTD"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HudMessage
@@ -1214,8 +1216,8 @@
 		"fieldName" 		"HudMessage"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"f0"
-		"tall"	 			"480"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 	
 	HudMenu
@@ -1255,30 +1257,30 @@
 		"enabled"			"1"
 		"xpos"				"c188"
 		"ypos"				"302"	[$WIN32]
-		"wide"				"150"
-		"tall"				"60"	[$WIN32]
 		"xpos_minmode"		"c115"
 		"ypos_minmode"		"273"	[$WIN32]
+		"wide"				"150"
+		"tall"				"60"	[$WIN32]
 		"wide_minmode"		"100"
 		"tall_minmode"		"40"
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemHiddenTime"	"0.2"
+		"ItemFadeInTime"	"0.15"
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"			"0"
 	}
 	
 	HudHistoryResource 
 	{
-		"fieldName" 		"HudHistoryResource"
-		"visible" 			"0"
-		"enabled" 			"0"
-		"xpos"	 			"r640"	[$WIN32]
+		"fieldName"			"HudHistoryResource"
+		"visible"			"0"
+		"enabled"			"0"
+		"xpos"				"r640"	[$WIN32]
 		"xpos"	 			"r672"	[$X360]
 		"wide"				"640"
-		"tall"	 			"330"
-		"history_gap" 		"55"
+		"tall"				"330"
+		"history_gap"		"55"
 	}
 	
 	HudGeiger
@@ -1286,8 +1288,8 @@
 		"fieldName" 		"HudGeiger"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HUDQuickInfo
@@ -1304,8 +1306,8 @@
 		"fieldName" 		"HudWeapon"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HudAnimationInfo
@@ -1313,16 +1315,16 @@
 		"fieldName" 		"HudAnimationInfo"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	CBudgetPanel
 	{
 		"fieldName" 		"CBudgetPanel"
 		"visible" 			"1"
-		"enabled" 			"1"
-		"wide"	 			"640"
+		"enabled"			"1"
+		"wide"				"640"
 		"tall"				"480"
 	}
 	
@@ -1330,18 +1332,18 @@
 	{
 		"fieldName" 		"CTextureBudgetPanel"
 		"visible" 			"1"
-		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"enabled"			"1"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HudPredictionDump
 	{
-		"fieldName" 		"HudPredictionDump"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"wide"	 			"1280"
-		"tall"	 			"1024"
+		"fieldName"			"HudPredictionDump"
+		"visible"			"1"
+		"enabled"			"1"
+		"wide"				"1280"
+		"tall"				"1024"
 	}
 	
 	HudLocation
@@ -1358,11 +1360,11 @@
 	
 	HudScope
 	{
-		"fieldName" 		"HudScope"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"wide"	 			"640"
-		"tall"	 			"480"
+		"fieldName"			"HudScope"
+		"visible"			"1"
+		"enabled"			"1"
+		"wide"				"640"
+		"tall"				"480"
 	}
 	
 	HudScopeCharge
@@ -1370,20 +1372,20 @@
 		"fieldName"			"HudScopeCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"	 			"c64"
-		"ypos"	 			"c-64"
-		"wide"	 			"64"
+		"xpos"				"c64"
+		"ypos"				"c-64"
+		"wide"				"64"
 		"tall"	 			"128"
 	}
 	
 	HudVoiceSelfStatus
 	{
 		"fieldName" 		"HudVoiceSelfStatus"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos" 				"r42" 	[$WIN32]
-		"ypos" 				"355"	[$WIN32]
-		"xpos" 				"r75"	[$X360]
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"r42" 	[$WIN32]
+		"ypos"				"355"	[$WIN32]
+		"xpos"				"r75"	[$X360]
 		"ypos" 				"375"	[$X360]
 		"wide" 				"32"
 		"tall" 				"32"
@@ -1465,10 +1467,10 @@
 	
 	VguiScreenCursor
 	{
-		"fieldName" 		"VguiScreenCursor"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"wide"	 			"640"
+		"fieldName"			"VguiScreenCursor"
+		"visible"			"1"
+		"enabled"			"1"
+		"wide"				"640"
 		"tall"	 			"480"
 	}
 	
@@ -1481,9 +1483,9 @@
 		"tall"				"200"
 		"visible"			"1"
 		"enabled"			"1"
-		"separator_width"	"3"				// distance between the icons (including their backgrounds)
+		"separator_width"	"3"
 		"separator_height"	"3"
-		"height_offset"		"3"	[$WIN32]	// distance from the bottom of the panel
+		"height_offset"		"3"	[$WIN32]
 	}
 	
 	HudCapturePanel
@@ -1594,7 +1596,7 @@
 		"xpos"				"c-200"
 		"ypos"				"260"
 		"wide"				"400"
-		"tall"				"160"		
+		"tall"				"160"
 	}
 	
 	"HudChat"
@@ -1604,7 +1606,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"10"	[$WIN32]
-		"xpos"				"42"	
+		"xpos"				"42"
 		"ypos"				"275"
 		"wide"	 			"320"
 		"tall"	 			"120"
@@ -1635,7 +1637,7 @@
 		"PaintBackgroundType" "0"
 	}
 	
-		"HudEurekaEffectTeleportMenu"
+	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 		"HudEurekaEffectTeleportMenu"
 		"visible" 			"1"
@@ -1795,7 +1797,7 @@
 		"tall"				"100"
 	}
 	
-	AchievementNotificationPanel	
+	AchievementNotificationPanel
 	{
 		"fieldName"			"AchievementNotificationPanel"
 		"visible"			"1"
@@ -1808,7 +1810,7 @@
 	
 	CriticalPanel [$WIN32]
 	{
-		"fieldName"			"CriticalPanel"		
+		"fieldName"			"CriticalPanel"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"r155"
@@ -1819,7 +1821,7 @@
 	
 	HudArenaClassLayout [$WIN32]
 	{
-		"fieldName"			"HudArenaClassLayout"		
+		"fieldName"			"HudArenaClassLayout"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
@@ -1831,7 +1833,7 @@
 	
 	HudArenaVsPanel [$WIN32]
 	{
-		"fieldName"			"HudArenaVsPanel"		
+		"fieldName"			"HudArenaVsPanel"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
@@ -1842,14 +1844,14 @@
 	
 	HudArenaPlayerCount [$WIN32]
 	{
-		"fieldName"			"HudArenaPlayerCount"		
+		"fieldName"			"HudArenaPlayerCount"
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"50"
-	}	
+	}
 	
 	"HudAchievementTracker"
 	{
@@ -1862,7 +1864,7 @@
 		"wide"				"200"
 		"tall"				"280"
 		"visible"			"1"
-		"enabled"			"1"	
+		"enabled"			"1"
 	}
 	
 	HudTrainingInfoMsg
@@ -1965,7 +1967,7 @@
 	"CHudVote"
 	{
 		"fieldName"			"CHudVote"
-		"xpos"				"0"			
+		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"640"
 		"tall"				"480"
@@ -2040,10 +2042,10 @@
 		"fieldName" 		"HudMiniGame"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos" 				"0"
-		"ypos" 				"0"
-		"wide" 				"f0"
-		"tall" 				"480"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 	
 	"QuestNotificationPanel"
@@ -2071,7 +2073,7 @@
 	
 	HudSpectatorExtras
 	{
-		"fieldName" 		"HudSpectatorExtras"
+		"fieldName"			"HudSpectatorExtras"
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"0"
@@ -2082,9 +2084,9 @@
 	
 	MatchSummary
 	{
-		"fieldName" 		"MatchSummary"
-		"visible" 			"0"
-		"enabled" 			"1"
+		"fieldName"			"MatchSummary"
+		"visible"			"0"
+		"enabled"			"1"
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
@@ -2105,18 +2107,18 @@
 	
 	"QueueHUDStatus"
 	{
-		"fieldName"			"QueueHUDStatus"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"rs1-5"
-		"ypos"				"1"
-		"zpos"				"1001"
-		"wide"				"200"
-		"tall"				"18"
-		"alpha"				"100"
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 	
 	HUDAutoAim			{ }

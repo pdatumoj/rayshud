@@ -108,7 +108,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue" [$WIN32]
@@ -206,12 +206,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-	}					
+	}
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}	
+	}
 }

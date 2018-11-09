@@ -47,7 +47,7 @@
 		"fieldName"		"bottombarblank"
 		"xpos"			"9999"
 		"ypos"			"9999"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
+		"ypos"			"r90"	[$X360]
 		"ypos_minmode"	"r0"
 		"tall"			"0"		[$WIN32]		// this needs to match the size of BottomBar
 		"tall_minmode"	"0"		
@@ -182,18 +182,18 @@
 		
 		"ItemBackground"
 		{
-			"ControlName" 	"ImagePanel"
-			"fieldName" 	"ItemBackground"
-			"xpos" 			"0"
-			"ypos" 			"0"
-			"zpos" 			"-1"
-			"wide" 			"240"
-			"tall" 			"900"
-			"autoResize" 	"0"
-			"pinCorner" 	"0"
-			"visible" 		"1"
-			"enabled" 		"1"
-			"fillcolor" 	"0 0 0 100"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"240"
+			"tall"			"900"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"0 0 0 100"
 		}
 		
 		"TitleBackground"

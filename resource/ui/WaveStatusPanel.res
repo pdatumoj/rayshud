@@ -18,7 +18,7 @@
 		"src_corner_height"		"22"			// pixels inside the image
 		"src_corner_width"		"22"
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height"	"0"	
 	}
 	
 	"WaveCountLabel"
@@ -53,8 +53,8 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"bgcolor_override"	"TanLight"
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"TanLight"
 		
 		if_verbose {
 			"visible"		"1"
@@ -100,7 +100,6 @@
 		
 		"src_corner_height"		"22"			// pixels inside the image
 		"src_corner_width"		"22"
-	
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
@@ -123,7 +122,6 @@
 		
 		"src_corner_height"		"22"			// pixels inside the image
 		"src_corner_width"		"22"
-	
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}

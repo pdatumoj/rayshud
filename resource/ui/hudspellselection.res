@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"			
+		"xpos"			"9999"
 	}
 	
 	"Spellbook"

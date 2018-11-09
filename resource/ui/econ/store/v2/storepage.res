@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override" "25 25 25 255"
 		"outoffocus_bgcolor_override" "25 25 25 255"
 		"max_cart_model_panels"	"10"
-		"item_ypos"		"70"
+		"item_ypos"				"70"
 		"item_panels"			"15"
 		"item_columns"			"5"
 		"item_offcenter_x"		"-292"
@@ -75,8 +75,8 @@
 				"allow_rot"				"0"
 				"inventory_image_type" "1"
 			}
-
-			"use_item_sounds" "1"		
+			
+			"use_item_sounds" "1"
 		}
 		
 		"modelpanel_labels_kv"
@@ -92,7 +92,7 @@
 			"pinCorner"		"0"	
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		
 		"cart_modelpanels_kv"
@@ -125,7 +125,7 @@
 				"allow_rot"				"0"
 			}
 			
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 		
 		"cart_labels_kv"
@@ -141,10 +141,10 @@
 			"pinCorner"		"0"	
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 	}
-
+	
 	"NameFilterTextEntry"
 	{
 		"ControlName"	"TextEntry"
@@ -263,13 +263,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
+		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -305,8 +305,8 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-    }
-
+	}
+	
 	"ClassFilterTooltipLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -330,7 +330,7 @@
 		"border"		"LoadoutItemPopupBorder"
 		"fgcolor"		"243 234 216 255"
 	}
-
+	
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -361,7 +361,7 @@
 		"depressedFgColor_override" "TanDark"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}		
+	}
 	
 	"CurPageLabel"
 	{
@@ -412,7 +412,7 @@
 		"depressedFgColor_override" "TanDark"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
-	}	
+	}
 	
 	"PriceLabel"
 	{
@@ -432,7 +432,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
+	}
 	
 	"NameFilterLabel"
 	{
@@ -579,7 +579,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		
 		"Buttons"
@@ -595,7 +595,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_all"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -608,7 +608,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_scout"
-				}				
+				}
 			}
 			"soldier"
 			{
@@ -617,11 +617,11 @@
 				"image_armed"		"class_icons/filter_soldier"
 				"image_selected"	"class_icons/filter_soldier_on"
 				"tooltiptext"		"#TF_Items_Soldier"
-
+				
 				"SubImage"
 				{
 					"image"			"class_icons/filter_soldier"
-				}				
+				}
 			}
 			"pyro"
 			{
@@ -634,7 +634,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_pyro"
-				}				
+				}
 			}
 			"demo"
 			{
@@ -647,7 +647,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_demo"
-				}				
+				}
 			}	
 			"heavy"
 			{
@@ -660,7 +660,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_heavy"
-				}				
+				}
 			}
 			"engineer"
 			{
@@ -673,7 +673,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_engineer"
-				}				
+				}
 			}
 			"medic"
 			{
@@ -686,7 +686,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_medic"
-				}				
+				}
 			}
 			"sniper"
 			{
@@ -699,7 +699,7 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_sniper"
-				}				
+				}
 			}
 			"spy"
 			{
@@ -712,8 +712,8 @@
 				"SubImage"
 				{
 					"image"			"class_icons/filter_spy"
-				}				
-			}	
+				}
+			}
 		}
 	}
 	
@@ -823,14 +823,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"9999"
 	}
-
+	
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -839,7 +839,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
-	}	
+	}
 	
 	"TabsExplanation"
 	{

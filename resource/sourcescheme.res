@@ -9,7 +9,7 @@ Scheme
 		"OffWhite"					"200 200 200 255"
 		"DullWhite"					"142 142 142 255"
 		"TransparentBlack"			"0 0 0 128"
-		"Black"						"10 10 10 255" 
+		"Black"						"10 10 10 255"
 		"Blank"						"0 0 0 0"
 		"RaysPrimary"				"15 255 255 255"
 		"RaysPrimaryLight"			"0 255 255 255"
@@ -24,26 +24,21 @@ Scheme
 	    "TFTanBright"               "236 227 203 150"
 	    "TFTanLight"                "201 188 162 150"
 	    "TFTanMedium"               "131 121 104 150"
-	    
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
-	    
 	    "TFOrangeBright"            "156 82 33 255"
-	    
 	    "TFTextBright"              "251 236 203 150"
 	    "TFTextLight"               "201 188 162 255"
 	    "TFTextMedium"              "131 121 104 255"
 	    "TFTextMediumDark"          "104 96 83 255"
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
-		
 	    "TFMediumBrown"				"69 64 58 255"
 		
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"		"131 121 104 150"
-	    
+		    
 	    "Blank"						"0 0 0 0"
-		
 		"ControlBG"					"76 88 68 255"		// background color of controls
 		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"					"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
@@ -143,40 +138,48 @@ Scheme
 		TextEntry.SelectedBgColor		"RaysPrimary"
 		
 		// Borrowed from CS:S SourceScheme
-		Frame.TitleTextInsetX			"14"
-		Frame.ClientInsetY				"9"
-		Frame.ClientInsetX				"8"
-		Frame.FocusTransitionEffectTime	"0.3"
-		Frame.TransitionEffectTime		"0.3"
-		Frame.AutoSnapRange				"0"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor "255 255 255 192"
-		FrameTitleButton.DisabledBgColor "Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.BgColor			"0 0 0 210"
-		FrameTitleBar.DisabledBgColor	"Blank"
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
-		ListPanel.TextBgColor			"Blank"
-		ListPanel.SelectedTextColor		"Black"
-		ListPanel.EmptyListInfoTextColor "OffWhite"
-		Menu.TextColor					"White"
-		Menu.ArmedTextColor				"Black"
-		Panel.FgColor					"DullWhite"
-		Panel.BgColor					"Blank"
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
-		PropertySheet.TextColor			"OffWhite"
-		PropertySheet.SelectedTextColor	"White"
+		Frame.TitleTextInsetX				"14"
+		Frame.ClientInsetY					"9"
+		Frame.ClientInsetX					"8"
+		Frame.FocusTransitionEffectTime		"0.3"
+		Frame.TransitionEffectTime			"0.3"
+		Frame.AutoSnapRange					"0"
+		FrameTitleButton.BgColor			"Blank"
+		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledBgColor	"Blank"
+		FrameSystemButton.FgColor			"Blank"
+		FrameSystemButton.BgColor			"Blank"
+		FrameSystemButton.Icon				""
+		FrameSystemButton.DisabledIcon		""
+		FrameTitleBar.BgColor				"0 0 0 210"
+		FrameTitleBar.DisabledBgColor		"Blank"
+		
+		GraphPanel.FgColor					"White"
+		GraphPanel.BgColor					"TransparentBlack"
+		
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.SelectedTextColor			"Black"
+		ListPanel.EmptyListInfoTextColor	"OffWhite"
+		
+		Menu.TextColor						"White"
+		Menu.ArmedTextColor					"Black"
+		
+		Panel.FgColor						"DullWhite"
+		Panel.BgColor						"Blank"
+		
+		ProgressBar.FgColor					"White"
+		ProgressBar.BgColor					"TransparentBlack"
+		
+		PropertySheet.TextColor				"OffWhite"
+		PropertySheet.SelectedTextColor		"White"
 		PropertySheet.TransitionEffectTime	"0.25"
-		RichText.TextColor				"OffWhite"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"RaysPrimary"
-		ScrollBar.Wide					"17"
+		
+		RichText.TextColor					"OffWhite"
+		RichText.BgColor					"TransparentBlack"
+		RichText.SelectedTextColor			"Black"
+		RichText.SelectedBgColor			"RaysPrimary"
+		ScrollBar.Wide						"17"
+		
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
@@ -187,26 +190,34 @@ Scheme
 		SectionedListPanel.SelectedBgColor				"RaysPrimary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
-		TextEntry.BgColor				"TransparentBlack"
-		TextEntry.CursorColor			"OffWhite"
-		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedTextColor		"Black"
+		
+		TextEntry.BgColor					"TransparentBlack"
+		TextEntry.CursorColor				"OffWhite"
+		TextEntry.DisabledBgColor			"Blank"
+		TextEntry.SelectedTextColor			"Black"
 		TextEntry.OutOfFocusSelectedBgColor	"100 100 100 128"
-		TextEntry.FocusEdgeColor		"0 0 0 196"
-		ToggleButton.SelectedTextColor	"White"
-		Tooltip.TextColor				"0 0 0 196"
-		Tooltip.BgColor					"RaysPrimary"
-		TreeView.BgColor				"TransparentBlack"
-		WizardSubPanel.BgColor			"Blank"
-		MainMenu.DepressedTextColor		"150 150 150 128"
-		MainMenu.MenuItemHeight			"25"
-		MainMenu.Backdrop				"0 0 0 156"
-		Console.TextColor				"OffWhite"
-		Console.DevTextColor			"White"
-		NewGame.TextColor				"White"
-		NewGame.FillColor				"0 0 0 255"
-		NewGame.SelectionColor			"RaysPrimary"
-		NewGame.DisabledColor			"128 128 128 196"
+		TextEntry.FocusEdgeColor			"0 0 0 196"
+		
+		ToggleButton.SelectedTextColor		"White"
+		
+		Tooltip.TextColor					"0 0 0 196"
+		Tooltip.BgColor						"RaysPrimary"
+		
+		TreeView.BgColor					"TransparentBlack"
+		
+		WizardSubPanel.BgColor				"Blank"
+		
+		MainMenu.DepressedTextColor			"150 150 150 128"
+		MainMenu.MenuItemHeight				"25"
+		MainMenu.Backdrop					"0 0 0 156"
+		
+		Console.TextColor					"OffWhite"
+		Console.DevTextColor				"White"
+		
+		NewGame.TextColor					"White"
+		NewGame.FillColor					"0 0 0 255"
+		NewGame.SelectionColor				"RaysPrimary"
+		NewGame.DisabledColor				"128 128 128 196"
 	}
 	
 	Fonts

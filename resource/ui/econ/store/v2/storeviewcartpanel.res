@@ -16,8 +16,8 @@
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override" 		"25 25 25 255"
-		"outoffocus_bgcolor_override" 	"25 25 25 255"
+		"infocus_bgcolor_override"		"25 25 25 255"
+		"outoffocus_bgcolor_override"	"25 25 25 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -36,7 +36,7 @@
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+			
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -103,7 +103,7 @@
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
-			}			
+			}
 			
 			"RemoveButton"
 			{
@@ -128,7 +128,7 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 			
 			"PriceLabel"
 			{
@@ -184,7 +184,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundHeader2"
 	{
 		"ControlName"	"ImagePanel"
@@ -199,7 +199,7 @@
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -214,7 +214,7 @@
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}
-
+	
 	"BackgroundFooter2"
 	{
 		"ControlName"	"ImagePanel"
@@ -228,8 +228,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 220"
 		"tileImage"		"1"
-	}			
-
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"EditablePanel"
@@ -245,7 +245,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
 		"bgcolor_override"		"Base Color"
-	}				
+	}
 	
 	"ClientArea"
 	{
@@ -272,7 +272,7 @@
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"Base Color"
-		}				
+		}
 		
 		"CartItemsLabel"
 		{
@@ -305,7 +305,7 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
+		}
 		
 		"EmptyCartLabel"
 		{
@@ -423,7 +423,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 					}
-
+					
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -442,7 +442,7 @@
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
-
+					
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
@@ -483,7 +483,7 @@
 				}
 			}
 		}
-	}	
+	}
 	
 	"CloseButton"
 	{

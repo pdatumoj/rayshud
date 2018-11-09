@@ -15,7 +15,7 @@
 		"icon"			"hud_menu_bg"
 		"fillcolor"		"0 0 0 100"
 	}
-
+	
 	"Divider"
 	{
 		"ControlName"	"ImagePanel"
@@ -49,7 +49,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"CerbeticaBold32"
-		"xpos"			"18"			// align me to the left edge of the first selection
+		"xpos"			"18"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"360"
@@ -70,7 +70,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"CerbeticaBold32"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"20"			// align me to the left edge of the first selection
+		"xpos"			"20"
 		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"360"
@@ -146,7 +146,7 @@
 		"text_center"	"1"
 		"text_forcesize"	"3"
 		"model_only"		"1"
-
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"

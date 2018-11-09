@@ -18,17 +18,17 @@
 	
 	"TopBar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TopBar"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"35"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TopBar"
+		"xpos"				"cs-0.5"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"35"
+		"visible"			"1"
+		"pinCorner"			"2"
+		"autoResize"		"1"
 		"proportionaltoparent"	"1"
-		"pinCorner"		"2"
-		"autoResize"	"1"
 		
 		"Gradient"
 		{
@@ -43,10 +43,10 @@
 			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
+			"scaleimage"		"1"
 			"mouseinputenabled"	"0"
-			"alpha"			"100"
-			"image"			"gradient_pure_black"
+			"alpha"				"100"
+			"image"				"gradient_pure_black"
 		}
 
 		"BGPanel"
@@ -394,7 +394,7 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
-			
+				
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
@@ -415,7 +415,7 @@
 					"image"			"glyph_options"
 					"scaleImage"	"1"
 				}				
-			}		
+			}
 
 			"CloseButton"
 			{
@@ -463,7 +463,7 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
+				}
 			}		
 		}
 
@@ -557,10 +557,8 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
-
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
-
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -592,16 +590,14 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
-
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-
+			
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
 
@@ -714,13 +710,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+			//"armedBgColor_override"	"CreditsGreen"
+			//"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLight"
+			"image_drawcolor"			"235 226 202 255"
+			"image_armedcolor"			"235 226 202 255"
 
 			"SubImage"
 			{
@@ -775,10 +771,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" 	"TanLight"
+			"armedFgColor_override" 	"TanLight"
+			"image_drawcolor"			"235 226 202 255"
+			"image_armedcolor"			"235 226 202 255"
 
 			"SubImage"
 			{

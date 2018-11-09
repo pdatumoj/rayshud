@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -59,7 +59,7 @@
 				"font"			"HudFontSmall"
 				"proportionaltoparent"	"1"
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
@@ -71,8 +71,8 @@
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"150"
-		"visible" 			"1"
-		"enabled" 			"1"
+		"visible"			"1"
+		"enabled"			"1"
 		"delta_item_x" 		"0"
 		"delta_item_start_y""50"
 		"delta_item_end_y" 	"70"
@@ -93,7 +93,7 @@
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
-		}		
+		}
 		
 		"TimePanelValue"
 		{
@@ -128,8 +128,8 @@
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 				"proportionaltoparent"	"1"
-			}			
-		}	
+			}
+		}
 	}
 	
 	"ActiveTimerBG"

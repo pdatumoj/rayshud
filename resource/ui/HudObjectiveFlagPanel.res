@@ -2,18 +2,18 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ObjectiveStatusFlagPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"if_hybrid" {
-			"zpos"			"-1"
+			"zpos"		"-1"
 		}
 	}
 	
@@ -70,7 +70,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -110,7 +110,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
@@ -129,7 +129,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 		
 	"BlueScoreShadow"
 	{
@@ -161,7 +161,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"RedScore"
 	{
@@ -174,7 +174,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
 		"fgcolor"		"TanLight"
@@ -193,8 +193,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -206,10 +206,10 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"Cerbetica40"
-		"fgcolor"		"Black"		
+		"fgcolor"		"Black"
 		
 		"if_hybrid"
 		{
@@ -225,7 +225,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"OutlineImage"
 	{
@@ -240,14 +240,14 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
-	}		
+	}
 	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
-	}		
+	}
 	
 	"PlayingTo"
 	{
@@ -281,8 +281,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-
+	}
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -311,8 +311,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -370,7 +370,7 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -396,7 +396,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 
 	"CaptureFlag"
 	{
@@ -451,7 +451,7 @@
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
-	}	
+	}
 	
 	"SpecCarriedImage"
 	{

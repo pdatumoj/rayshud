@@ -58,8 +58,8 @@
 		"enabled"		"1"
 		"fillcolor"		"15 15 15 175"
 		"tileImage"		"1"
-	}		
-
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -108,14 +108,14 @@
 	
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"20"
-		"transition_time" "0"
-		"yoffset"		"14"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabwidth"			"240"
+		"tabheight"			"20"
+		"transition_time" 	"0"
+		"yoffset"			"14"
 		
 		"HeaderLine"
 		{
@@ -132,7 +132,7 @@
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
 			"bgcolor_override"		"Base Color"
-		}				
+		}
 		
 		"tabskv"
 		{

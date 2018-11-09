@@ -4,18 +4,18 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"70 130 180 153"
-		"labelText"		"#TF_Class_Name_Soldier"
+		"fgcolor"			"70 130 180 153"
+		"labelText"			"#TF_Class_Name_Soldier"
 	}
 	
 	"NewNumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"			"70 130 180 153"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"70 130 180 153"
-		"labelText"		"2"
+		"fgcolor"			"70 130 180 153"
+		"labelText"			"2"
 	}
 }

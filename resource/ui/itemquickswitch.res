@@ -95,6 +95,25 @@
 		"enabled"		"1"
 	}
 	
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"font"			"ItemFontNameSmallest"
+		"labelText"		"#NoItemsToEquip"
+		"textAlignment"	"center"
+		"xpos"			"3"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"220"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
+	}
+	
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -153,25 +172,6 @@
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}
-	}
-	
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
-		"font"			"ItemFontNameSmallest"
-		"labelText"		"#NoItemsToEquip"
-		"textAlignment"	"center"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"220"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"loadout_preset_panel"
